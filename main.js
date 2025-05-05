@@ -182,3 +182,9 @@ let reversNames = students.map(function(student) {
 })
 
 console.log(reversNames);
+
+//
+ let containO = students.filter(function(student) {
+    return student.toLocaleLowerCase().includes("o"); 
+});
+console.log(containO);
